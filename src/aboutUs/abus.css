@@ -1,0 +1,80 @@
+/*About Us*/
+#aboutus{
+	height:80vh ;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+} 
+
+#aboutus h1{
+	color: #313131;
+	font-weight: bold;
+	font-size: 5rem;
+	opacity: 0.12;
+	margin-top: 4rem;
+	text-align: center;
+
+}
+#aboutus .asd{
+	position: relative;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	
+}
+.content-aboutUs{
+	width: 50%;
+	/*padding: 35px;*/
+	
+}
+
+#aboutus .aboutus-pix {
+	
+    margin-top: 2rem;
+    float: right;
+}
+
+#aboutus h4{
+	color: #ff8a7a;
+	font-size: 15.5px;
+	/*margin: 0 163px 9.5px 0;*/
+}
+
+#aboutus h2{
+	color: #0c0c0c;
+	font-weight: bold;
+	font-size: 26px;
+	
+}
+
+#aboutus p{
+	color: #767676;
+	
+	font-size: 11px;
+	/*width: 16rem */;
+}
+#aboutus .btn{
+	background: #ff9873;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For Tablet phones: */
+	#aboutus{
+		height: 143vh;
+	}
+}
+@media only screen and (max-width: 425px) {
+	/* For mobile phones: */
+	#aboutus h1{
+		font-size: 2rem;
+	}
+	#aboutus{
+		height: 147vh;
+	}
+  }
